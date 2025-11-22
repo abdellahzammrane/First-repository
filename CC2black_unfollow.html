@@ -1,0 +1,554 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Continue 2</title>
+    <style>
+         .publications {
+            font-weight: bold;
+            font-family:arial;
+            margin-left:253px;
+            margin-top:-18px;
+			color:white;
+        }
+        .bio {
+            font-family:arial;
+            font-size:15px;
+            margin-top:-15px;
+            margin-left:20px;
+			color:white;
+        }
+		.achrafhakimifoundation {
+		    font-family:arial;
+            font-size:15px;
+            margin-top:-15px;
+            margin-left:20px;
+		}
+		.maphoto {
+		    width:50px;
+			border:none;
+			height:50px;
+			border-radius:25px;
+			margin-left:15px;
+			margin-top:15px;
+		}
+		.ilyasphoto {
+		    width:50px;
+			border:none;
+			height:50px;
+			border-radius:25px;
+			margin-top:15px;
+			margin-left:-18px;
+		}
+		.adnanphoto {
+		    width:50px;
+			border:none;
+			height:50px;
+			border-radius:25px;
+			margin-top:15px;
+			margin-left:-20px;
+		}
+		.smiyti {
+		    font-family:arial;
+			font-size:18px;
+            margin-top:-40px;
+			margin-left:145px;	
+			color:white;
+		}
+		.smitilyas {
+		    font-family:arial;
+			font-size:18px;
+            margin-top:-20px;
+			margin-left:310px;	
+			color:white;
+		}
+		.smitadnan {
+		    font-family:arial;
+			font-size:18px;
+            margin-top:-20px;
+			margin-left:420px;	  
+		    color:white;
+		}
+		.bachnkeber {
+		    size:200px;
+		}
+		.tablolewel {
+		    border:3px solid grey;
+			padding:4px;
+			width:1085px;
+			margin-left:7px;
+		}
+        .firstpic {
+		    width:265px;
+			height:400px;
+			margin-left:7px;
+			margin-top:4px;
+			border:1px solid white;
+			cursor:pointer;
+		}
+		.firstpic:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.secondpic {
+		    width:265px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+	    .secondpic:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.thirdpic {
+		    width:265px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.thirdpic:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.fourthpic {
+		    width:265px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.fourthpic:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picfive {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:7px;
+			cursor:pointer;
+		}
+		.picfive:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picsex {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+	    .picsex:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picseven {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.picseven:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.piceigth {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.piceigth:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picten {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:7px;
+			cursor:pointer;
+		}
+		.picten:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picnine {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.picnine:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.piceleven {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.piceleven:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwelve {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictwelve:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictletach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:7px;
+			cursor:pointer;
+		}
+		.pictletach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picrbaatach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.picrbaatach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pickhmestach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pickhmestach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picsetach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.picsetach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.picsbaatach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:7px;
+			cursor:pointer;
+		}
+		.picsbaatach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictmentach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictmentach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictsaatach {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictsaatach:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwenty {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictwenty:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwentyone {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:7px;
+			cursor:pointer;
+		}
+		.pictwentyone:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwentytwo {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictwentytwo:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwentythree {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictwentythree:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.pictwentyfour {
+		    width:267px;
+			height:400px;
+			margin-top:4px;
+			margin-left:1px;
+			cursor:pointer;
+		}
+		.pictwentyfour:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.boxvideo1 {
+		    border:0.5px solid white;
+			border-radius:40px;
+			width:950px;
+			height:1050px;
+			margin-left:75px;
+			margin-top:50px;
+			background-color:white;
+			font-family:arial;
+		}
+		.hakimi433 {
+		    width:954px;
+			height:800px;
+			margin-left:-2px;
+		}
+		.like:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.comment:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.share:hover {
+			transform: scale(1.1);
+			transition:0.2s ease;
+		}
+		.boxvideo2 {
+		    border:0.5px solid white;
+			border-radius:40px;
+			width:950px;
+			height:1200px;
+			background-color:white;
+			font-family:arial;
+			margin-left:75px;
+			margin-top:80px;
+		}
+		.equipedemaroc {
+		    width:110px;
+			margin-left:10px;
+			margin-top:10px;
+		}
+		.hakimimaroc{
+		    margin-left:-4px;
+			margin-top:30px;
+		}
+		.boxvideo3 {
+		    border:0.5px solid white;
+			border-radius:40px;
+			width:950px;
+			height:1200px;
+			background-color:white;
+			font-family:arial;
+			margin-left:75px;
+			margin-top:80px;
+		}
+		.psgicon {
+		    width:110px;
+			margin-left:10px;
+			margin-top:10px;
+		}
+		.footer {
+			font-size: 15px;
+			background-color: rgb(255, 255, 255);
+			height: 200px;
+			width: auto;
+			font-family: Arial, Helvetica, sans-serif;
+			color: rgb(0, 0, 0);
+		}
+		.footer button {
+			width: 300px;
+			height: 50px;
+			margin-left: 600px;
+			padding: 20px;
+			padding-bottom: 10px;
+			text-align: center;
+			margin-top: 20px;
+			border-radius: 50px;
+			background:transparent;
+			font-size: 20px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			color:rgb(0, 0, 0);
+			border: 2px solid rgb(0, 0, 0);
+			transition: all 0.5s ease;
+
+		}
+
+		.footer button:hover{
+			background-color: rgb(0, 0, 0);
+			color:rgb(255, 255, 255);
+			transform: scale(1.06);
+		}
+
+		.footer div{
+			margin-left: 580px;
+			margin-top: 30px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 14px;
+			font-weight: 600;
+			background:transparent;
+		}
+    </style>
+</head>
+<body bgcolor="#2F2B2B">
+<div class="firstcadre" style="border: 1px solid grey;border-radius:20px;width:1100px;height:2920px;margin-left:150px;margin-bottom:100px;margin-top:100px;background-color:black;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
+    <img src="Profile2hakimi.png" alt="Profile Picture" style="width:150px;height:150px;border-radius:50%;margin-left:20px;margin-top:20px;border:1px double black;">
+    <p style="margin-left:220px;margin-top:-115px;font-family:verdana;font-size:20px;color:white"><b>achrafhakimi</b></p><img src="verifiedicon.png"alt="verifiedicon" style="width:20px;height:20px;margin-left:370px;margin-top:-40px;position:absolute;">
+    <br><p style="font-family:arial;margin-left:220px;margin-top:-30px;font-size:16px;text-decoration-line: underline;color:white;">Achraf Hakimi</p>
+    <br><br>
+    <table>
+        <tr>
+    <div class="854publications" style="text-shadow:0.65px 0.65px 0px black;margin-left:222px;margin-top:-18px;font-family:arial;color:white;">854</div><div class="publications"> publications</div>
+        </tr>
+        <tr>
+    <div class="followersnumbers" style="text-shadow:0.65px 0.65px 0px black;margin-left:390px;margin-top:-18px;font-family:arial;color:white;">21.5 M</div><div class="followers" style="font-weight: bold;font-family:arial;margin-left:445px;margin-top:-18px;color:white;"> followers</div>
+        </tr>
+        <tr>
+    <div class="suivi" style="text-shadow:0.65px 0.65px 0px black;margin-left:550px;margin-top:-18px;font-family:arial;color:white;">904</div><div class="following" style="font-weight: bold;font-family:arial;margin-left:580px;margin-top:-19px;color:white;"> suivi(e)s</div>
+        </tr>
+    </table><br><br>
+    <p class="bio">PSG | Morocco player</p>
+	<div class="achrafhakimifoundation"><a href="foundationhakimi.html" style="color:#0095FF;">@achrafhakimifoundation</a></div>
+	    <img src="maphoto.jpg" class="maphoto">
+		<img src="ilyas.jpg"class="ilyasphoto">
+		<img src="adnan.jpg"class="adnanphoto">
+    <div class="smiyti"><b>abdellah_zamrane</b>,</div>
+	<div class="smitilyas"><b>yekhlefilyas</b>,</div>
+	    <div class="smitadnan"><b>markqat3liyado</b> et autres personnes suivent</div>
+		<div>
+		<input type="submit"value="follow"onclick="window.location.href='CC2black_follow.html'" style="width:500px;height:49px;border-radius:10px;font-family:arial;font-size:18px;border:none;background-color:#005FF7;margin-left:30px;margin-top:30px;cursor:pointer;color:white;" class="suivie">
+		<input type="submit"value="contacter"style="width:500px;height:49px;border-radius:10px;font-family:arial;font-size:18px;border:none;background-color:#494949;cursor:pointer;margin-left:10px;color:white;">
+		</div>
+		<div>
+        <input type="image"src="addicondark4.png"style=" border:none;border-radius:10px;cursor:pointer;width:42px;height:50px;margin-top:-10px;margin-left:1048px;margin-top:-49px;">
+		</div>	
+	<br><br><br>
+	<table class="tablolewel">
+	    <tr>
+		    <td align="center"><img src="XOdark.png"alt="iwama3andamandiro"width="40px"cellspacing="10px"align="center"></td>
+			<td align="center"><img src="relaticondark.png"alt="iwama3andamandiro"width="40px"cellspacing="10px"></td>
+		<tr>
+	</table>
+	<img src="Hakimi.jpg" class="firstpic">
+	<img src="hakimi2.jpg"class="secondpic">
+	<img src="hakimi3.jpg"class="thirdpic">
+	<img src="hakimi4.jpg"class="fourthpic">
+	<img src="hakimi5.jpg"class="picfive">
+	<img src="hakimi6.jpg"class="picsex">
+	<img src="hakimi7.jpg"class="picseven">
+	<img src="hakimi8.jpg"class="piceigth">
+	<img src="hakimi10.jpg"class="picten">
+	<img src="hakimi9.jpg"class="picnine">
+	<img src="hakimi11.jpg"class="piceleven">
+	<img src="hakimi12.jpg"class="pictwelve">
+	<img src="hakimi13.jpg"class="pictletach">
+	<img src="hakimi14.jpg"class="picrbaatach">
+	<img src="hakimi15.jpg"class="pickhmestach">
+	<img src="hakimi16.jpg"class="picsetach">
+	<img src="hakimi17.jpg"class="picsbaatach">
+	<img src="hakimi18.jpg"class="pictmentach">
+	<img src="hakimi19.jpg"class="pictsaatach">
+	<img src="hakimi20.jpg"class="pictwenty">
+	<img src="hakimi21.jpg"class="pictwentyone">
+	<img src="hakimi22.jpg"class="pictwentytwo">
+	<img src="hakimi23.jpg"class="pictwentythree">
+	<img src="hakimi24.jpg"class="pictwentyfour">
+</div>
+<br>
+<div class="secondcadre"style="border: 1px solid grey;border-radius:20px;width:1100px;height:3730px;margin-left:150px;margin-bottom:100px;margin-top:100px;background-color:black;box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
+    <div class="boxvideo1">
+	    <img src="433.jpg" class="433pic"style="border:none;border-radius:75px;width:100px;margin-left:10px;margin-top:10px;"title="433">
+		<p style="font-family:Congenial;font-size:52px;margin-left:140px;margin-top:-75px;font-weight:1000;">433</p>
+		<img src="verifiedicon.png"alt="verifiedicon" style="width:40px;height:40px;margin-left:230px;margin-top:-105px;position:absolute;">
+		<img src="hakimi433.jpg" alt="hakimisadesballondor"title="6th" class="hakimi433">
+		<p style="font-family:arial;font-weight:1000;font-size:30px;margin-left:3px;margin-top:5px;">@achrafhakimi</p>
+		<p style="font-family:arial;font-size:30px;margin-left:260px;margin-top:-70px;">Hakimi is sixth in the world&#127775;</p>
+		<img src="jaime.png"alt="j'adore" style="width:50px;margin-left:750px;margin-top:-23px;cursor:pointer;"class="like">
+		<img src="comment.png"alt="commenter"style="width:48px;margin-left:815px;margin-top:-45px;cursor:pointer;"class="comment">
+		<img src="share.png"alt="partager"style="width:55px;margin-left:870px;margin-top:-50px;cursor:pointer;"class="share">
+	</div>
+	<div class="boxvideo2">
+	    <img src="morocco.png"class="equipedemaroc">
+		<p style="font-family:arial;font-size:35px;margin-left:140px;font-weight:1000;margin-top:-90px;">equipedemaroc</p>
+		<img src="verifiedicon.png"alt="verification"style="width:40px;height:40px;margin-left:445px;margin-top:-80px;">
+		<img src="hakimimaroc.png" class="hakimimaroc">
+		<p style="font-family:arial;font-size:30px;margin-left:3px;">The last training session for the Atlas Lions before the match &#x1F981;<br>
+		<b>@achrafhakimi</b> et <b>@el_ainaoui</b></p>
+		<img src="jaime.png"alt="j'adore" style="width:50px;margin-left:750px;margin-top:-57px;cursor:pointer;"class="like">
+		<img src="comment.png"alt="commenter"style="width:48px;margin-left:815px;margin-top:-57px;cursor:pointer;"class="comment">
+		<img src="share.png"alt="partager"style="width:55px;margin-left:870px;margin-top:-57px;cursor:pointer;"class="share">
+	</div>
+	<div class="boxvideo3">
+	    <img src="psg.png"class="psgicon">
+		<p style="font-family:arial;font-size:30px;margin-left:140px;font-weight:850;margin-top:-97px;">PSG</p>
+	    <img src="verifiedicon.png"alt="verification"style="width:40px;height:40px;margin-left:220px;margin-top:-73px;">
+		<img src="hakimipsg.png" style="margin-top:30px;margin-left:-1px;height:920px;width:952px;">
+        <p style="font-family:arial;font-size:35px;margin-left:3px;margin-left:1px;">Barca , I see you...&#128064;</p>
+		<img src="jaime.png"alt="j'adore" style="width:50px;margin-left:750px;margin-top:-57px;cursor:pointer;"class="like">
+		<img src="comment.png"alt="commenter"style="width:48px;margin-left:815px;margin-top:-57px;cursor:pointer;"class="comment">
+		<img src="share.png"alt="partager"style="width:55px;margin-left:870px;margin-top:-57px;cursor:pointer;"class="share">
+	</div>
+</div>
+<footer class="footer">
+	<button onclick="window.location.href='CC2white_unfollow.html'">Light Mode Option</button>
+	<div>&copy; All right are recersed for the team A&I</div>
+</footer>
+
+</body>
+</html>
